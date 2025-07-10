@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .contained {
+        @apply mx-auto max-w-[--max-width] w-full;
+    }
+
+    .deemphasize {
+        @apply text-neutral-500 dark:text-neutral-400;
+    }
+
+    .tag {
+        @apply border border-dark dark:border-white text-dark dark:text-white transition-[color,border-color] duration-300 px-2 h-6 flex items-center;
+    }
+
+    .tag-hover {
+        @apply hover:bg-dark hover:text-white dark:hover:bg-white dark:hover:text-black;
+    }
+
+    .pad-screen {
+        @apply px-[--pad-screen];
+    }
+
+    .title {
+        @apply text-[2.35rem] !leading-snug tracking-tight;
+    }
+}
+
+@property --to-top {
+    syntax: "<color>";
+    initial-value: #ffffff;
+    inherits: false;
+}
+
+:root.dark .gradient-top-transition {
+    --to-top: #141414;
+}
+
+.gradient-top-transition {
+    background: linear-gradient(to top, transparent, var(--to-top) 50%, var(--to-top) 100%);
+    transition: --to-top 300ms;
+}
+
+::selection {
+    background-color: #47a3f3;
+    color: #fefefe;
+}
+
+:root {
+    --max-width: 80rem;
+    --pad-screen: 1.25rem;
+}
+
+@media screen(xs) {
+    :root {
+        --pad-screen: 2rem;
+    }
+}
+
+@media screen(mmd) {
+    :root {
+        --pad-screen: 4rem;
+    }
+}
+
+@media screen(xl) {
+    :root {
+        --pad-screen: 5rem;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --sh-keyword: #f47067;
+        --sh-string: #0fa295;
+    }
+    html {
+        color-scheme: dark;
+    }
+}
+
+html {
+    min-width: 360px;
+}
+
+pre::-webkit-scrollbar {
+    display: none;
+}
+
+pre {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Remove Safari input shadow on mobile */
+input[type="text"],
+input[type="email"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+body {
+    font-feature-settings:
+        "calt" 1,
+        "dlig" 1,
+        "case" 1,
+        "ss07" 1,
+        "cv11" 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-figtree);
+}
+
+.nums {
+    font-feature-settings:
+        "tnum" 1,
+        "zero" 1;
+}
