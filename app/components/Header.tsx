@@ -15,7 +15,7 @@ import clsx from "clsx";
 import { useLocale } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import Link from "next/link";
-import LanguageSwitch from "./LanguageSwitch";
+// import LanguageSwitch from "./LanguageSwitch";
 import TabContainer from "./tabs/TabContainer";
 
 const itemsClass = "flex items-center gap-6";
@@ -52,7 +52,7 @@ export default async function Header() {
                     </h4>
                     <div className={itemsClass}>
                         <DarkModeToggle />
-                        <LanguageSwitch />
+                        {/* <LanguageSwitch /> */}
                     </div>
                 </div>
             </nav>

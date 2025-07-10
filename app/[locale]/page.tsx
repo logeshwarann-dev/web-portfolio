@@ -9,7 +9,6 @@ import clsx from "clsx";
 import { useLocale } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
-import MaltLogo from "../../public/logos/brand/malt.svg";
 import LogoMarquee from "./_elements/LogoMarquee";
 import { getBlogPosts } from "./blog/utils";
 
@@ -84,23 +83,11 @@ export default async function IndexPage() {
                 prefix={<RiLinkedinBoxFill className="w-4 h-4" />}
                 hoverable
             />
-            <Tag
-                className="text-[#fc5757] border-[#fc5757] dark:text-[#ff8c8c] dark:border-[#ff8c8c] hover:border-transparent"
-                link={tLinks("malt")}
-                linkInNewTab
-                content="Malt"
-                prefix={<MaltLogo className="w-4 h-4" />}
-                hoverable
-            />
             <div className="gap-1 pl-12 items-center hidden llg:flex">
                 <span className="font-semibold text-lg nums">{tIndex("freelancing.rating")}</span>
                 <span className="relative w-5 h-5">
                     <RiStarLine className="absolute top-0 w-5 h-5 z-10 dark:text-primary" />
                     <RiStarFill className="absolute top-0 w-5 h-5 text-primary" />
-                </span>
-                <span className="pl-1 flex items-center gap-1">
-                    {tIndex("freelancing.platform")}
-                    <MaltLogo className="w-4 h-4" />
                 </span>
             </div>
         </nav>
@@ -118,8 +105,8 @@ export default async function IndexPage() {
                         </div>
                         <div className="relative flex shrink-0 gap-4">
                             <Image
-                                src="/img/iv-stpn.png"
-                                alt="Ivan Stepanian: Photo"
+                                src="/img/profile_pic.png"
+                                alt="Logeshwaran: Photo"
                                 width={200}
                                 height={200}
                                 className="brightness-125 z-10 shrink-0 rounded-full w-28 h-28 xss:w-36 xss:h-36 ssm:rounded-2xl md:pl-0.5 lg:w-44 lg:h-44"

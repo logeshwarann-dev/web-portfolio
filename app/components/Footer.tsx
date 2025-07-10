@@ -13,7 +13,7 @@ export default function Footer() {
             <div className="contained pad-screen flex items-center gap-6 mb-16">
                 <div className="flex relative">
                     <Image
-                        src="/img/iv-stpn.png"
+                        src="/img/profile_pic.png"
                         alt="Photo de profil"
                         width={200}
                         height={200}
@@ -21,7 +21,7 @@ export default function Footer() {
                     />
                     <div className="absolute bg-primary rounded-full w-12 h-12" />
                 </div>
-                <h1 className="title">Ivan Stepanian</h1>
+                <h1 className="title">Logeshwaran N</h1>
             </div>
             {/* <div className="contained pad-screen mb-10">
                 <h2 className="opacity-65">Ma mission</h2>

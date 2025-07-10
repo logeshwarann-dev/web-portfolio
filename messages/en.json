@@ -1,14 +1,14 @@
 {
     "Metadata": {
-        "template": "%s :: Ivan Stepanian",
-        "default": "Portfolio :: Ivan Stepanian",
-        "title": "Ivan Stepanian :: Freelance Full-Stack Data Engineer",
+        "template": "%s :: Logeshwaran N",
+        "default": "Portfolio :: Logeshwaran N",
+        "title": "Logeshwaran N :: Backend Engineer",
         "locale": "en_US",
-        "description": "I'm Ivan Stepanian, freelance full-stack data engineer based in Paris, France. Passionate about problem-solving and product engineering, I help companies with big data, web development, and data scraping."
+        "description": "I'm Logeshwaran N, freelance full-stack data engineer based in Paris, France. Passionate about problem-solving and product engineering, I help companies with big data, web development, and data scraping."
     },
     "Header": {
-        "name": "Ivan Stepanian",
-        "nickname": "iv-stpn",
+        "name": "Logeshwaran N",
+        "nickname": "logan",
         "tabs": {
             "about-me": "About me",
             "resume": "Resume",
@@ -21,7 +21,7 @@
     },
     "Index": {
         "titles": {
-            "home": "Full-stack data engineer<br></br>& freelance developer",
+            "home": "Backend Engineer<br></br>",
             "articles": "Latest articles",
             "services": "I can help you with...",
             "contact": "Get in touch"
@@ -73,7 +73,7 @@
         "title": "Blog",
         "meta": {
             "title": "Blog",
-            "description": "Ivan Stepanian: Stay up to date with my latest articles on web development & data engineering!"
+            "description": "Logeshwaran N: Stay up to date with my latest articles on web development & data engineering!"
         },
         "subtitle": "Latest articles"
     },
@@ -84,31 +84,31 @@
         "back": "Back to blog"
     },
     "Links": {
-        "name": "Ivan Stepanian",
+        "name": "Logeshwaran N",
         "social": "Social",
         "contact": "Contact",
         "address": "Address",
         "get-a-quote": "Get a quote",
         "legal": "Legal",
-        "company": "Ivan Stepanian E.I.",
+        "company": "Logeshwaran N E.I.",
         "company-number": "SIRET 98505510200018",
         "company-register": "RCS Créteil",
         "company-street": "22 avenue Laplace",
         "company-city": "94110 Arcueil, France",
         "company-vat": "VAT: FR81985055102",
-        "creator": "Built in public by Ivan Stepanian",
+        "creator": "Built in public by Logeshwaran N",
         "license": "Code available under MIT license on <repository>GitHub</repository>",
-        "repository": "https://github.com/iv-stpn/portfolio",
-        "linkedin": "https://www.linkedin.com/in/iv-stpn/",
-        "github": "https://github.com/iv-stpn",
+        "repository": "https://github.com/logeshwarann-dev/portfolio",
+        "linkedin": "https://www.linkedin.com/in/logeshwarann/",
+        "github": "https://github.com/logeshwarann-dev",
         "malt": "https://www.malt.com/profile/ivanstepanian",
-        "telephone": "+33 6 95 69 25 99",
-        "tel": "tel:+33695692599",
-        "email": "iv.stpn@gmail.com",
-        "mailto": "mailto:iv.stpn@gmail.com?body=Hello%20Ivan%2C%0A%0AI%20am%20contacting%20you%20to%20%5Bcollaborate%20on%20a%20project%5D%0A%0ARegards%2C%0A%0A%5BYour%20Name%5D%0A%0ASent%20from%20ivanstepanian.com"
+        "telephone": "+91 63828 77616",
+        "tel": "tel:+916382877616",
+        "email": "logeshwaran082@gmail.com",
+        "mailto": "mailto:logeshwaran082@gmail.com?body=Hello%20Ivan%2C%0A%0AI%20am%20contacting%20you%20to%20%5Bcollaborate%20on%20a%20project%5D%0A%0ARegards%2C%0A%0A%5BYour%20Name%5D%0A%0ASent%20from%20logeshwarann.info"
     },
     "ContactMeta": {
-        "title": "Contact :: Ivan Stepanian",
+        "title": "Contact :: Logeshwaran N",
         "description": "Get in touch with me to start a project or ask for a quote."
     },
     "Contact": {

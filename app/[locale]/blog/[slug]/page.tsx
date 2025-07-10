@@ -60,7 +60,7 @@ export default async function BlogPage({ params }: Readonly<BlogProps>) {
                         url: `${baseUrl}/blog/${post.slug}`,
                         author: {
                             "@type": "Person",
-                            name: "Ivan Stepanian",
+                            name: "Logeshwaran",
                         },
                     }),
                 }}
@@ -80,13 +80,13 @@ export default async function BlogPage({ params }: Readonly<BlogProps>) {
                 <div className="flex items-center justify-between mt-2 mb-8 gap-6">
                     <span className="flex items-center gap-4">
                         <Image
-                            src="/img/iv-stpn-bg.png"
-                            alt="Ivan Stepanian: Photo"
+                            src="/img/profile_pic.png"
+                            alt="Logeshwaran: Photo"
                             width={48}
                             height={48}
                             className="brightness-110 z-10 shrink-0 rounded-full h-12 w-12"
                         />
-                        <h4 className="font-semibold">Ivan Stepanian</h4>
+                        <h4 className="font-semibold">Logeshwaran N</h4>
                     </span>
                     <span className="flex items-center gap-6 tracking-[0.005rem]">
                         <h4>
