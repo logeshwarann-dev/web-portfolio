@@ -26,8 +26,8 @@
             "services": "Area of Expertise",
             "contact": "Get in touch"
         },
-        "subtitle": "Passionate about problem-solving, business needs analysis, and product engineering, I am seeking new challenges.",
-        "details": "Versatile and rigorous, my skills range from data engineering (<pandas>Pandas</pandas>, <scala>Scala</scala>, <spark>Spark</spark>, <azure>Azure MLOps</azure>...) to full-stack web development (<react>React</react>, <nextjs>Next14</nextjs>, <nestjs>NestJS</nestjs>, <kubernetes>Kubernetes</kubernetes>...), giving me a 360° view of modern digital products.",
+        "subtitle": "Results-driven engineer who thrives on tackling complex technical challenges and transforming business requirements into scalable, user-focused solutions.",
+        "details": "My technical expertise spans backend development with Go and Python, API design across REST, gRPC, GraphQL, and WebSockets, plus database management with PostgreSQL, MongoDB, and Redis. I leverage modern DevOps practices including Docker/Kubernetes containerization, CI/CD pipelines, cloud platforms (AWS/GCP), and comprehensive monitoring solutions to build and maintain scalable, production-ready systems.",
         "work-together": "Let's work together!",
         "links": {
             "pandas": "https://pandas.pydata.org",
@@ -44,21 +44,21 @@
             "platform": "on Malt",
             "tags": {
                 "experience": "3+ years of experience",
-                "projects": "10+ projects"
+                "projects": "10+ Github projects"
             }
         },
         "services": {
             "data": {
                 "title": "Software Development",
-                "content": "As a Big Data & Machine Learning engineer by training, I manage ETL pipelines with the Apache stack. I use Plotly and R for data visualization, and TF/Keras for ML."
+                "content": "As a Software Engineer, I build scalable backend systems using Go and microservices architecture, with expertise in PostgreSQL database design and optimization. I specialize in container orchestration and deployment automation using Kubernetes for enterprise-scale applications."
             },
             "web": {
                 "title": "Cloud",
-                "content": "Full-Stack with Expo/React Native & NestJS, Next.js 14 (app directory with API Routes). Sensitive to UX/UI, I assist in designing modern & intuitive interfaces."
+                "content": "As a Cloud Architect specializing in AWS, I design and implement scalable cloud infrastructure using services like EC2, EKS, RDS, and Lambda for enterprise applications. I architect resilient, cost-optimized solutions leveraging AWS best practices for security, monitoring, and automated deployment pipelines."
             },
             "scraping": {
                 "title": "Gen AI",
-                "content": "Web data extraction with Scrapy & Selenium, analysis and transformation with pandas. Completed projects include B2B lead & product lists generation."
+                "content": "As a Generative AI Enthusiast, I develop and deploy LLM-powered applications using AWS Bedrock, implementing RAG architectures and MCP protocols for intelligent document processing and conversational AI systems. I specialize in fine-tuning large language models and building scalable AI infrastructure that integrates seamlessly with enterprise workflows."
             }
         },
         "contact": {
@@ -90,13 +90,13 @@
         "address": "Address",
         "get-a-quote": "Get a quote",
         "legal": "Address",
-        "company": "Logeshwaran N",
+        "company": "",
         "company-number": "",
         "company-register": "",
-        "company-street": "No. 1405, 21st Main Rd, Vanganahalli, 1st Sector, HSR Layout",
-        "company-city": " Bengaluru, Karnataka - 560102",
+        "company-street": "1405, 21st Main Rd, 1st Sector, Vanganahalli, HSR Layout",
+        "company-city": "Bengaluru, Karnataka - 560102",
         "company-vat": "",
-        "creator": "Built in public by Logeshwaran N",
+        "creator": "Built with love by Logan",
         "license": "",
         "repository": "https://github.com/logeshwarann-dev/portfolio",
         "linkedin": "https://www.linkedin.com/in/logeshwarann/",
@@ -122,26 +122,26 @@
         "survey": "How did you hear about me?",
         "submit": "Send your message",
         "serviceTags": {
-            "etl": "ETL Pipelines",
-            "data": "Data Analysis (R/Python)",
-            "scraping": "Data Scraping (Selenium/Scrapy)",
-            "mobile": "Mobile Development (Expo/React Native)",
+            "etl": "Cloud Services (AWS/GCP)",
+            "data": "Gen AI (LLMs/RAG/MCP)",
+            "scraping": "DevOps (CI/CD/Monitoring/Logging)",
+            "mobile": "DB Optimization (PostgreSQL/MongoDB/Redis)",
             "frontend": "Frontend Development (NextJS/React)",
-            "backend": "Backend Development (NodeJS/NestJS)",
-            "leads": "B2B Lead Generation",
+            "backend": "Backend Development (Golang/Microservices)",
+            "leads": "Cloud-Native Development (Golang/Kubernetes)",
             "consulting": "IT Consulting",
             "other": "Other"
         },
         "surveyTags": {
             "webSearch": "Web search",
-            "meet": "Meeting at a trade show, conference...",
+            "meet": "Meeting at an event or conference...",
             "linkedin": "LinkedIn",
             "socialMedia": "Other social media",
-            "wordOfMouth": "Word of mouth",
+            "wordOfMouth": "Reference",
             "otherMeans": "Other"
         },
         "success": "Got it {name}!<br></br>I will get back to you as soon as possible.",
         "additional": "Any additional information?",
-        "send-email": "Send an email to iv.stpn@gmail.com"
+        "send-email": "Send an email to logeshwaran082@gmail.com"
     }
 }
