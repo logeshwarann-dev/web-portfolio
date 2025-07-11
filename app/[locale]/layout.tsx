@@ -22,7 +22,7 @@ export async function generateMetadata({ params: { locale } }: LocaleProps) {
             title: t("title"),
             description: t("description"),
             url: baseUrl,
-            siteName: "ivanstepanian.com",
+            siteName: "logeshwarann.info",
             locale: t("locale"),
             type: "website",
         },
