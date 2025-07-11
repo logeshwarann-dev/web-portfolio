@@ -2,9 +2,9 @@
     "Metadata": {
         "template": "%s :: Logeshwaran N",
         "default": "Portfolio :: Logeshwaran N",
-        "title": "Logeshwaran N :: Backend Engineer",
+        "title": "Logeshwaran N :: Software Engineer",
         "locale": "en_US",
-        "description": "I'm Logeshwaran N, freelance full-stack data engineer based in Paris, France. Passionate about problem-solving and product engineering, I help companies with big data, web development, and data scraping."
+        "description": "I'm Logeshwaran N, software engineer based in Bangalore, India. Passionate about problem-solving and product engineering, I help companies with big data, web development, and data scraping."
     },
     "Header": {
         "name": "Logeshwaran N",
@@ -21,9 +21,9 @@
     },
     "Index": {
         "titles": {
-            "home": "Backend Engineer<br></br>",
+            "home": "Software Engineer<br></br> & Cloud Architect",
             "articles": "Latest articles",
-            "services": "I can help you with...",
+            "services": "Area of Expertise",
             "contact": "Get in touch"
         },
         "subtitle": "Passionate about problem-solving, business needs analysis, and product engineering, I am seeking new challenges.",
@@ -49,15 +49,15 @@
         },
         "services": {
             "data": {
-                "title": "Big Data",
+                "title": "Software Development",
                 "content": "As a Big Data & Machine Learning engineer by training, I manage ETL pipelines with the Apache stack. I use Plotly and R for data visualization, and TF/Keras for ML."
             },
             "web": {
-                "title": "Web Development",
+                "title": "Cloud",
                 "content": "Full-Stack with Expo/React Native & NestJS, Next.js 14 (app directory with API Routes). Sensitive to UX/UI, I assist in designing modern & intuitive interfaces."
             },
             "scraping": {
-                "title": "Scraping",
+                "title": "Gen AI",
                 "content": "Web data extraction with Scrapy & Selenium, analysis and transformation with pandas. Completed projects include B2B lead & product lists generation."
             }
         },
@@ -73,7 +73,7 @@
         "title": "Blog",
         "meta": {
             "title": "Blog",
-            "description": "Logeshwaran N: Stay up to date with my latest articles on web development & data engineering!"
+            "description": "Logeshwaran N: Stay up to date with my latest articles on Cloud & Software engineering!"
         },
         "subtitle": "Latest articles"
     },
@@ -89,19 +89,18 @@
         "contact": "Contact",
         "address": "Address",
         "get-a-quote": "Get a quote",
-        "legal": "Legal",
-        "company": "Logeshwaran N E.I.",
-        "company-number": "SIRET 98505510200018",
-        "company-register": "RCS Créteil",
-        "company-street": "22 avenue Laplace",
-        "company-city": "94110 Arcueil, France",
-        "company-vat": "VAT: FR81985055102",
+        "legal": "Address",
+        "company": "Logeshwaran N",
+        "company-number": "",
+        "company-register": "",
+        "company-street": "No. 1405, 21st Main Rd, Vanganahalli, 1st Sector, HSR Layout",
+        "company-city": " Bengaluru, Karnataka - 560102",
+        "company-vat": "",
         "creator": "Built in public by Logeshwaran N",
-        "license": "Code available under MIT license on <repository>GitHub</repository>",
+        "license": "",
         "repository": "https://github.com/logeshwarann-dev/portfolio",
         "linkedin": "https://www.linkedin.com/in/logeshwarann/",
         "github": "https://github.com/logeshwarann-dev",
-        "malt": "https://www.malt.com/profile/ivanstepanian",
         "telephone": "+91 63828 77616",
         "tel": "tel:+916382877616",
         "email": "logeshwaran082@gmail.com",

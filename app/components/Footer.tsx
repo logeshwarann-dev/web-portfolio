@@ -41,11 +41,11 @@ export default function Footer() {
                                 GitHub
                             </UnderlineLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <UnderlineLink href={t("malt")} external>
                                 Malt
                             </UnderlineLink>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
                 <div>
@@ -61,9 +61,9 @@ export default function Footer() {
                                 {t("telephone")}
                             </UnderlineLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <UnderlineLink href={`/${locale}/contact`}>{t("get-a-quote")}</UnderlineLink>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
                 <div>
@@ -83,12 +83,12 @@ export default function Footer() {
             </div>
             <div className="contained pad-screen">
                 <h2 className="opacity-65">{t("creator")}</h2>
-                <div>
+                {/* <div>
                     {t.rich("license", {
                         repository: (children) => <ExternalLink href={t("repository")}>{children}</ExternalLink>,
                     })}
                     <RiArrowRightUpLine className="w-5 h-5 inline mb-1 ml-1" />
-                </div>
+                </div> */}
             </div>
         </footer>
     );

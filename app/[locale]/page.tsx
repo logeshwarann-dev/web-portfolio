@@ -83,13 +83,13 @@ export default async function IndexPage() {
                 prefix={<RiLinkedinBoxFill className="w-4 h-4" />}
                 hoverable
             />
-            <div className="gap-1 pl-12 items-center hidden llg:flex">
+            {/* <div className="gap-1 pl-12 items-center hidden llg:flex">
                 <span className="font-semibold text-lg nums">{tIndex("freelancing.rating")}</span>
                 <span className="relative w-5 h-5">
                     <RiStarLine className="absolute top-0 w-5 h-5 z-10 dark:text-primary" />
                     <RiStarFill className="absolute top-0 w-5 h-5 text-primary" />
                 </span>
-            </div>
+            </div> */}
         </nav>
     );
 
@@ -168,11 +168,16 @@ export default async function IndexPage() {
                         <LinkBlock href={tLinks("mailto")} label={tLinks("email")} />
                     </div>
                     <div className="md:basis-[50%] mt-12">
-                        <div>{tIndex("contact.quote")}</div>
-                        <LinkBlock href={`/${locale}/contact`} label={tLinks("get-a-quote")} />
+                        <div>{tIndex("contact.know-more")}</div>
+                        <LinkBlock
+                            href={resumeLink}
+                            label={tIndex("contact.resume")}
+                            className="md:basis-[50%]"
+                            external
+                        />
                     </div>
                 </div>
-                <div className="w-full mt-16">
+                {/* <div className="w-full mt-16">
                     <div>{tIndex("contact.know-more")}</div>
                     <div className="flex flex-col md:flex-row">
                         <LinkBlock
@@ -181,14 +186,8 @@ export default async function IndexPage() {
                             className="md:basis-[50%]"
                             external
                         />
-                        <LinkBlock
-                            href={tLinks("malt")}
-                            label={tIndex("contact.freelancing")}
-                            className="md:basis-[50%]"
-                            external
-                        />
                     </div>
-                </div>
+                </div> */}
             </section>
         </>
     );
